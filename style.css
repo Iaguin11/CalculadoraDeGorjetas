@@ -1,0 +1,82 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(260deg, #ccffff,#ffcccc,rgb(284, 204, 255));
+    
+}
+
+.container{
+    height: 60vh;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    border-radius: 20px;
+    box-shadow: 5px 3px 10px -3px #d6d6d6  ;
+}
+.title-content{
+     background-color: gainsboro; 
+     color: dimgrey;
+     padding: 5px;
+     text-transform: uppercase;
+     font-size: 12px;
+     font-weight: normal;
+     text-align: center;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+}
+
+#Content{
+    padding: 40px;
+}
+#content-btn{
+    text-align: center;
+    margin-top: 40px;
+}
+#btnSubmit { 
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background: lightcoral;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    cursor: pointer;
+    transition:  .2s;
+}
+#btnSubmit:hover{
+    border: 1px solid black;
+    background: lightcoral;
+}
+.formInput{
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 5px ;
+    border: 1px solid black;
+   
+}
+.formInput:focus{
+    border: 2px solid lightcoral;
+    outline: none;
+}
+.formSelect{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.formSelect:focus{
+    border: 2px solid lightcoral;
+    outline: none;
+}
+
+#totalTips{
+   margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
